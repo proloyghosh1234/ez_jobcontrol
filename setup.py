@@ -7,10 +7,10 @@ setup(
   description = 'This module once installed within an ec-2 instance, help you retrieve secret-value for a given secret-key',   # Give a short description about your library
   author = 'Proloy Ghosh',                   # Type in your name
   author_email = 'proloy.ghosh1234@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
+  url = 'https://github.com/proloyghosh1234/ez_awssecretmanager/archive/0.1.tar.gz',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
   keywords = ['AWS', 'SECRETMANAGER', 'GETSECRET'],   # Keywords that define your package best
-  install_requires=[],
+  install_requires=['botocore','boto3'],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
