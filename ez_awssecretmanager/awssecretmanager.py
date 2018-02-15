@@ -4,7 +4,6 @@ from botocore.exceptions import ClientError
 class secretmanager:
     
     def get_secret(self,secret_name,region_name):
-        # Create a Secrets Manager client
         session = boto3.session.Session()
         client = session.client(
             service_name='secretsmanager',
