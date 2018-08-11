@@ -8,7 +8,7 @@ setup(
   author = 'Proloy Ghosh',                   # Type in your name
   author_email = 'proloy.ghosh1234@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/proloyghosh1234/ez_jobcontrol/archive/0.1.tar.gz',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/proloyghosh1234/ez_jobcontrol/archive/v_0.1.tar.gz',    # I explain this later on
   keywords = ['aws', 'jobcontrol', 'dynamodb'],   # Keywords that define your package best
   install_requires=['boto3'],
   classifiers=[
