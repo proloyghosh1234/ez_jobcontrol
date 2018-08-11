@@ -103,7 +103,6 @@ class jobcontrol:
         frequeny=response["Items"][0]["frequency"]["S"]
         self.logger.info("Checking if job_id : {0} is already running".format(job_id))
         self.checkifjobisrunning(job_id)
-        
         dynamo=self.getclient()
         response_job_status=dynamo.query(TableName=self.job_status_table,
                 KeyConditions=
