@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
 class jobcontrol:    
-    def __init__(self,job_control_table,job_status_table,job_dependency_table,aws_region,profile_name=''):
+    def __init__(self,job_control_table='ez_job_control',job_status_table='ez_job_status',job_dependency_table='ez_job_dependency',aws_region,profile_name=''):
         self.aws_region=aws_region
         self.job_control_table=job_control_table
         self.job_status_table=job_status_table
