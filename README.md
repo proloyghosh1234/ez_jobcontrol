@@ -4,17 +4,11 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-ez_awssecretmanager is an easy way to get the secret value stored in aws secret manger by providing the name of the secret key.
-
-  - from ez_awssecretmanager import secretmanager as sm
-  - sm().get_secret('mysecretkey','us-east-1')
-
-
-Install the dependencies and devDependencies and start the server.
+ez_jobcontrol is an easy way to set up job control functionalities for all your etl jobs.
 
 ```
-from ez_awssecretmanager import secretmanager as sm
-sm().get_secret('mysecretkey','us-east-1')
+from ez_jobcontrol import jobcontrol as jc
+jc('job_control_table_name','job_status_table_name','job_dependency_table_name','aws_profile_name').jc_start(job_id)
 ```
 
 
