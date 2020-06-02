@@ -15,8 +15,7 @@ jc('job_control_table_name','job_status_table_name','job_dependency_table_name',
 
 ### Todos
 
- - Write MORE Tests
- - Add Night Mode
+ - Write MORE Tests cases
 
 License
 ----
